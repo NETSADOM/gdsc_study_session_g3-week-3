@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Counter</title>
+    <style>
+      #counter {
+        background-color: antiquewhites;
+        max-width: 200px;
+        padding: 20px;
+        margin: 0 auto;
+        border: 1px solid #424e03;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .plus {
+        width: 80px;
+        height: 40px;
+        margin: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        background-color: #b2ad82;
+        cursor: pointer;
+      }
+      .minus {
+        width: 80px;
+        height: 40px;
+        margin: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        background-color: #b2ad82;
+        cursor: pointer;
+      }
+    </style>
+    <script src="counter.js"></script>
+  </head>
+  <body>
+    <div id="counter">
+      <h2>Counter</h2>
+      <p id="count-display">0</p>
+      <button class="plus" onclick="increment()">Increase</button>
+      <button class="minus" onclick="decrement()">Decrease</button>
+    </div>
+  </body>
+</html>
